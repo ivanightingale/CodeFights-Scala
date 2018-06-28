@@ -1,0 +1,3 @@
+def longestDigitsPrefix(inputString: String): String = {
+    inputString.takeWhile(_.isDigit)
+}
